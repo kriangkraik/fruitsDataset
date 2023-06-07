@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 15
+names: ['Condensed Milk', 'apple', 'banana', 'butter', 'cocoa', 'egg', 'grape', 'hand', 'honey', 'lemon', 'orange', 'pear', 'phone', 'pillow', 'pineapple']
+
+roboflow:
+  workspace: detect-object
+  project: fruitai
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/detect-object/fruitai/dataset/3
